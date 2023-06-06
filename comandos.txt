@@ -1,0 +1,261 @@
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez
+$ git init
+Initialized empty Git repository in C:/Users/JulianSalvaR/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/.git/
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (master)
+$ echo "# 20230605-JulianRamirez" >> README.md
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (master)
+$ git branch -M main
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git remote add origin https://github.com/Jsalvar124/20230605-JulianRamirez.git
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git remote -v
+origin  https://github.com/Jsalvar124/20230605-JulianRamirez.git (fetch)
+origin  https://github.com/Jsalvar124/20230605-JulianRamirez.git (push)
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ touch comandos.txt main.js index.html
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git add .
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   comandos.txt
+        new file:   index.html
+        new file:   main.js
+
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git commit -m "commit 01 de JulianRamirez"
+[main (root-commit) 043b4a0] commit 01 de JulianRamirez
+ Committer: Julian Salva R <jsalva@ecomsur.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 250 bytes | 250.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Jsalvar124/20230605-JulianRamirez.git
+ * [new branch]      main -> main
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git log
+commit 043b4a06e2433a19f6dcb73ab1af298830a28c67 (HEAD -> main, origin/main)
+Author: Julian Salva R <jsalva@ecomsur.com>
+Date:   Mon Jun 5 21:31:39 2023 -0500
+
+    commit 01 de JulianRamirez
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git branch feature
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ mkdir Hardware Software SeguridadInformatica
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ cd Hardware/
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/Hardware (feature)
+$ touch resument.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/Hardware (feature)
+$ cd ../Software/
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/Software (feature)
+$ touch resument.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/Software (feature)
+$ cd ../SeguridadInformatica/
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/SeguridadInformatica (feature)
+$ touch resument.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/SeguridadInformatica (feature)
+$ git status
+On branch feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Hardware/
+        ./
+        ../Software/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez/SeguridadInformatica (feature)
+$ cd ..
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git status
+On branch feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Hardware/
+        SeguridadInformatica/
+        Software/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ ls -t
+SeguridadInformatica/  Software/  Hardware/  index.html  main.js  comandos.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git add .
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git commit -m "commit 02 de JulianRamirez"
+[feature 2822e30] commit 02 de JulianRamirez
+ Committer: Julian Salva R <jsalva@ecomsur.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resument.txt
+ create mode 100644 SeguridadInformatica/resument.txt
+ create mode 100644 Software/resument.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git status
+On branch feature
+nothing to commit, working tree clean
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 386 bytes | 386.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/Jsalvar124/20230605-JulianRamirez/pull/new/feature
+remote:
+To https://github.com/Jsalvar124/20230605-JulianRamirez.git
+ * [new branch]      feature -> feature
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git log
+commit 2822e309e59f66c1548d7455184fb957a3cb7764 (HEAD -> feature, origin/feature)
+Author: Julian Salva R <jsalva@ecomsur.com>
+Date:   Mon Jun 5 21:38:26 2023 -0500
+
+    commit 02 de JulianRamirez
+
+commit 043b4a06e2433a19f6dcb73ab1af298830a28c67 (origin/main, main)
+Author: Julian Salva R <jsalva@ecomsur.com>
+Date:   Mon Jun 5 21:31:39 2023 -0500
+
+    commit 01 de JulianRamirez
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git log -outline
+fatal: unrecognized argument: -outline
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git log -t
+commit 2822e309e59f66c1548d7455184fb957a3cb7764 (HEAD -> feature, origin/feature)
+Author: Julian Salva R <jsalva@ecomsur.com>
+Date:   Mon Jun 5 21:38:26 2023 -0500
+
+    commit 02 de JulianRamirez
+
+commit 043b4a06e2433a19f6dcb73ab1af298830a28c67 (origin/main, main)
+Author: Julian Salva R <jsalva@ecomsur.com>
+Date:   Mon Jun 5 21:31:39 2023 -0500
+
+    commit 01 de JulianRamirez
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (feature)
+$ git checkout main
+Switched to branch 'main'
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ mv main.js resumenHardware.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ mv index.html resumenSoftware.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git add .
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git commit -m "commit 03 de JulianRamirez"
+[main a1edbca] commit 03 de JulianRamirez
+ Committer: Julian Salva R <jsalva@ecomsur.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 6 insertions(+)
+ delete mode 100644 index.html
+ delete mode 100644 main.js
+ create mode 100644 resumenHardware.txt
+ create mode 100644 resumenSoftware.txt
+
+AzureAD+JulianSalvaR@PYT-JSALVA MINGW64 ~/Documents/Notas_Ingreso/Inducción/Digital House/20230605-JulianRamirez (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 424 bytes | 424.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Jsalvar124/20230605-JulianRamirez.git
+   043b4a0..a1edbca  main -> main
+
